@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<fieldset class="form-animate">
+  <header>
+    <img src="img/OIP (1).webp" alt="Logo">
+    <h1>Iniciar sesión</h1>
+  </header>
+
+  <main>
+    <form action="#" method="post" autocomplete="on">
+      <div>
+        <label for="email"></label><br>
+        <input id="email" name="email" type="email" placeholder="Correo Electrónico" required>
+      </div>
+
+      <div class="password-container">
+        <input id="password" name="password" type="password" placeholder="Contraseña" required minlength="6">
+        <span class="eye">👁</span>
+      </div>
+
+      <div>
+        <input id="remember" name="remember" type="checkbox">
+        <label for="remember">Recuérdame</label>
+      </div>
+
+      <div>
+        <button type="submit">Entrar</button>
+      </div>
+
+      <p>
+        <a href="olvidemicontraseña.html">¿Olvidaste tu contraseña?</a> |
+        <a href="Registrarse.html">Crear cuenta</a>
+      </p>
+
+      <input type="hidden" name="redirect" value="/dashboard">
+    </form>
+  </main>
+
+  <footer>
+  </footer>
+</fieldset>
+
+</body>
+</html>
